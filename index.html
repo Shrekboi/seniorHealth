@@ -10,6 +10,30 @@
 
     <title>Senior Health</title>
     <link rel="stylesheet" href="styles.css">
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.10.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyCcsI_yFA2fJYAHu9PFzwWeWfrm5G7O0qc",
+            authDomain: "seniorhealth-afbe9.firebaseapp.com",
+            projectId: "seniorhealth-afbe9",
+            storageBucket: "seniorhealth-afbe9.appspot.com",
+            messagingSenderId: "1015421142097",
+            appId: "1:1015421142097:web:893f064e7b52d0e41ba470",
+            measurementId: "G-XZZXV33F7G"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
 </head>
 
 <body>
